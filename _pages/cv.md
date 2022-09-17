@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. Univeristy of Michigan-Ann Arbor, 2016
+* M.S. ETH Zurich, 2018
+* Ph.D in PDE, École polytechnique fédérale de Lausanne, 2023 (expected)
 
 Work experience
 ======
@@ -42,11 +42,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+
   
 Teaching
 ======
