@@ -1,5 +1,5 @@
 ---
-title: "Global Well-Posedness For Half-Wave Maps With $S^2$ and $\mathbb{H}^2$ Targets For Small Smooth Initial Data"
+title: Global Well-Posedness For Half-Wave Maps With $S^2$ and $\mathbb{H}^2$ Targets For Small Smooth Initial Data
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'We prove global well-posedness for the half-wave map with $S^2$ target for small $H˙n2×H˙n2−1$ initial data. We also prove the global well-posedness for the equation with $\mathbb{H}^2$ target for small smooth B˙n22,1×B˙n2−12,1 initial data.'
