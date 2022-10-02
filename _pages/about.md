@@ -8,4 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-This is my websites to highlight.
+I am a Phd student of mathematics at École Polytechnique Fédérale de Lausanne researching partial differential equations(PDE). Besides my focus on PDE, I am also interested in data science and machine learning.
+
+I enjoy exploring the world. I was born and raised in China, finished my undergraduate in the U.S., and am now doing my graduate study in Switzerland.
