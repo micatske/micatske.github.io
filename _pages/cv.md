@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. Univeristy of Michigan-Ann Arbor, 2016
-* M.S. ETH Zurich, 2018
-* Ph.D in PDE, École polytechnique fédérale de Lausanne, 2023 (expected)
+* B.S. Univeristy of Michigan-Ann Arbor, May.2016
+* M.S. ETH Zurich, Dec.2018
+* Ph.D in PDE, École polytechnique fédérale de Lausanne, Mar.2023 (expected)
 
 Work experience
 ======
