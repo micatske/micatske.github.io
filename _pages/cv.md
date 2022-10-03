@@ -17,7 +17,7 @@ Education
 
 Work experience
 ======
-* June 2022-Aug 2022: Credit Suisse-Quantitative Summer Institute (QSI)
+* Quantitative Summer Associate (June 2022-Aug 2022): Credit Suisse-Quantitative Summer Institute (QSI)
   * Develop an Excel-based tool to calculate Coindex-Coindex and Coindex-CoFuture Correlation
   * Develop CoindexSwap FCV together with peers in C++
   * Assess the model appropriateness by backtesting CoIndexSwap on various underlyings
@@ -49,6 +49,7 @@ Skills
 * Languages:
   * English (Professional)
   * Mandarin(Native)
+
 Publications
 ======
   <ul>{% for post in site.publications %}

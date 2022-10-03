@@ -22,7 +22,8 @@ Here are the lists of project I did from machine learning and data science.
 
 # AIAnalysis
 
-The project is designed to automatically estimate functions in symbolic form use sympy package.## Function Spaces
+The project is designed to automatically estimate functions in symbolic form use sympy package.
+### Function Spaces
 
 We define function spaces $L^p$, $W^{k,p}$, $\dot H^s$, $H^s$, $C^{r,\alpha}$ by using the sympy, each of then taking a function symbol and parameter as input and output their corresponding norms.
 
@@ -88,30 +89,45 @@ The output will be in latex as the following:
 The latest [development version](https://github.com/micatske/aianalysis) on GitHub
 
 
-# RWmisc
+# CNN-LSTM-STOCK
 
-[![R build status](https://github.com/jayrobwilliams/RWmisc/workflows/R-CMD-check/badge.svg)](https://github.com/jayrobwilliams/RWmisc/actions)
-[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/RWmisc)](https://CRAN.R-project.org/package=RWmisc)
-[![codecov](https://codecov.io/gh/jayrobwilliams/RWmisc/branch/master/graph/badge.svg)](https://codecov.io/gh/jayrobwilliams/RWmisc)
+### Data
+We use the US-stock from Yahoo Finance and Index data from MarketWatch. From 2017-09-01 to 2022-08-31. We predict the stock/index using the close price.
 
-I've collected convenience functions that I've written to address issues I frequently confront in my work into a personal R package called [RWmisc](https://CRAN.R-project.org/package=RWmisc). It includes functions for:
+For stock:
+We use GOOG,TSLA
 
-- Managing multiple different projections for cross-national spatial data
-- Converting latitude-longitude data in archaic forms (degrees, minutes, seconds)
-- Correcting for overlapping polygons when aggregating raster data to polygons
-- My custom minimal ggplot2 theme
+For Index:
+We use S&P 500
 
-![](/images/software/spatial_weighting.png)
+### Use
+One need to specify "stock" or "index" and stock or index name in the command line
 
-To install the latest release on CRAN:
+For example
 
-```r
-install.packages("RWmisc")
+```
+python test.py stock GOOG
 ```
 
-The latest [development version](https://github.com/jayrobwilliams/RWmisc) on GitHub can be installed with:
-
-```r
-library(remotes)
-install_github("jayrobwilliams/RWmisc")
 ```
+python test.py index SP500
+```
+to predict SP500
+### Neutral Network Structure
+We use a CNN-LSTM based model to predict stock with an attention layer. We start with three 1D Convolution layers with max pooling layers and then connect the two LSTM layers with an attention layer. To avoid overfitting, we added two drop out layers. During training, we also use early stopping. Here's the full Neutral network structure. 
+![Network](/images/projects/model.png)
+
+
+## Training and Testing Result
+
+![GOOG](/images/projects/TSLAtrain.png)
+![RESG](/images/projects/TSLA.png)
+
+# ![Covid-19 Cases Analysis](https://github.com/micatske/covid-analysis)
+
+ * Virtualized World Covid Data in confirmed, recovery, death and daily cases for different countries and regions
+using Johns Hopkins University’s Data
+ * Virtualized Swiss Covid confirmed cases, testing, and hospitalized number using BAG data
+ * Analyzed and Modeled relation between GDP per capita, Social support, Healthy life expectancy, Freedom to
+make life choices to confirmed cases
+* Predict the total cases using Polynomial Regression Model
