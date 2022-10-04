@@ -125,6 +125,7 @@ We use a CNN-LSTM based model to predict stock with an attention layer. We start
 ![RESG](/images/projects/TSLA.png)
 
 # [Covid-19 Cases Analysis](https://github.com/micatske/covid-analysis)
+The project is for virtualize and analysis the Covid data from John's Hopkins data. Specifically, the project contains the following content:
 
  * Virtualized World Covid Data in confirmed, recovery, death and daily cases for different countries and regions
 using Johns Hopkins University’s Data
