@@ -26,7 +26,7 @@ Research experience
 ======
 * External Collaborator(Feb.2021-Sept.2021): Laboratory for Information and Inference Systems – EPFL
   * Formed a Reading Group of Computational Optimal Transport.
-  * Explored multiple methods including Wavelets Decomposition and the Integral Probability Metric to overcome
+  * Explored multiple methods, including Wavelets Decomposition and the Integral Probability Metric to overcome
   the “Curse of Dimension” Problem.
 * Research Assistant(Feb.2019-May 2019): DS3Lab ETH Zurich
   * Generated Synthetic Fire Department Calls for Service Data using the Differential Privacy assurance GAN
