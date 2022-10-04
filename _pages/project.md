@@ -20,7 +20,7 @@ header:
 
 Here are the lists of project I did from machine learning and data science. 
 
-# AIAnalysis
+# [AIAnalysis](https://github.com/micatske/aianalysis)
 
 The project is designed to automatically estimate functions in symbolic form use sympy package.
 ### Function Spaces
@@ -53,7 +53,7 @@ Sobolev_Embed_auto(2,2,1,f**2)
 ```
 
 And we have 
-
+![sob1](/images/projects/sob1.png)
 
 For $f \in W^{2,2}(\mathbb(R)^4)$
 
@@ -62,7 +62,7 @@ Sobolev_Embed_auto(2,2,4,f)
 ```
 
 We have
-
+![sob2](/images/projects/sob2.png)
 ### Para Product 
 
 We build the Bony's Paraproduct decomposition (https://www.math.ucla.edu/~tao/247b.1.07w/notes6.pdf). We include the high-high, low-high, and low-high paraproduct. Moreover, we also have the helpful operator $\nabla$ and $\triangle$ build-in. The paraproduct can be used with the Sobolev Embedding and Holder inequality to estimate functions.
@@ -79,6 +79,7 @@ Paraproduct(nabla*f,lap*g)
 ```
 
 The output will be in latex as the following:
+![para](/images/projects/para.png)
 
 
 
@@ -89,7 +90,7 @@ The output will be in latex as the following:
 The latest [development version](https://github.com/micatske/aianalysis) on GitHub
 
 
-# CNN-LSTM-STOCK
+# [CNN-LSTM-STOCK](https://github.com/micatske/CNN-LSTM-Stock)
 
 ### Data
 We use the US-stock from Yahoo Finance and Index data from MarketWatch. From 2017-09-01 to 2022-08-31. We predict the stock/index using the close price.
@@ -123,7 +124,7 @@ We use a CNN-LSTM based model to predict stock with an attention layer. We start
 ![GOOG](/images/projects/TSLAtrain.png)
 ![RESG](/images/projects/TSLA.png)
 
-# ![Covid-19 Cases Analysis](https://github.com/micatske/covid-analysis)
+# [Covid-19 Cases Analysis](https://github.com/micatske/covid-analysis)
 
  * Virtualized World Covid Data in confirmed, recovery, death and daily cases for different countries and regions
 using Johns Hopkins University’s Data
